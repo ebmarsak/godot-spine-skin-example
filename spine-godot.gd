@@ -11,7 +11,7 @@ func _ready() -> void:
 
 func test2() -> void:
 	
-	## Here you get the skeleton of SpineSprite and set the "default" skin from Spine project as it's skin.
+	## Here you get the skeleton of SpineSprite and set the "default" skin from Spine project as its skin.
 	## This "default" skin is just like the skin named "skin-base" in "Mix and Match" example project in Spine2D.
 	## We set its skin as "default" just to be able to add other skins on top of it later.
 	spine_sprite.get_skeleton().set_skin_by_name("default")
